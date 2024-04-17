@@ -29,7 +29,7 @@ export default function App() {
     return (
         <div className="container mx-auto">
             <h1 className="font-serif">
-                Hello World!
+                Testing to see if it automatically updates after git Push!
             </h1>
         </div>
     );
