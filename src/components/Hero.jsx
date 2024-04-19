@@ -2,13 +2,13 @@ import React from 'react';
 
 
 export default function Hero() {
-    return <section className='container border-4 border-slate-600'>
-        <div className='flex flex-row mb-4'>
-            <p className='bg-teal-400 text-xl text-white px-4 py-2'>Hello, my name is</p>
+    return <section className='container md:mx-auto border-4 border-slate-600'>
+        <div className='flex flex-row mb-4 mt-4'>
+            <p className='md:text-xl lg:text-2xl px-4 text-slate-600'>Hello, my name is</p>
         </div>
-        <h1 className='text-6xl md:text-8xl text-slate-600 font-bold text-center'>Bailey Liang</h1>
-        <div className='flex flex-row-reverse mt-4'>
-            <p className='text-5xl text-white mt-5 bg-teal-400 px-4 py-2'>I am a Software Developer.</p>
+        <h1 className='text-6xl md:text-8xl lg:text-9xl text-slate-600 font-bold text-center'>Bailey Liang</h1>
+        <div className='flex flex-row-reverse mb-4 mt-2'>
+            <p className='text-3xl md:text-5xl lg:text-6xl text-end mt-5 text-slate-600 px-4 py-2'>I am a Software Developer.</p>
         </div>
     </section>;
 }

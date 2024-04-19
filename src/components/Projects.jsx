@@ -23,7 +23,7 @@ export default function Projects() {
 
 
     return (
-        <section className='container mx-auto border-4 border-t-0 divide-x-4 border-slate-500 flex'>
+        <section className='container mx-auto border-4 border-y-0 border-slate-600 flex flex-wrap'>
             {
                 projects === null ?
                     <p>Loading projects...</p> :

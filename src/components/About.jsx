@@ -3,23 +3,16 @@ import React from 'react';
 
 export default function About() {
     return (
-        <section className='flex flex-row container mx-auto border-4 border-t-0 border-slate-500'>
-            <div className='flex-1'>
-
-                <h2 className='text-4xl font-bold mb-4 text-slate-600'>About</h2>
-                <p className='p-4'>
-                    Hi there! I'm [Your Name], a [Job Title] with a passion for [Area of Expertise]. I bring [Number] years of experience to the table, specializing in [List 2-3 key skills].
-
-                    I'm driven by a desire to [State your professional goal or the impact you want to make].  Whether it's [Briefly describe a challenging project you tackled], I thrive on [Highlight a positive work attribute].
-
-                    Beyond work, I enjoy [Mention a relevant personal interest]. This [Explain how your interest connects back to your professional skills].
-
-                    I'm always looking for new challenges and opportunities to collaborate. If you think my skills would be a good fit for your project, feel free to [Mention your preferred method of contact, e.g., get in touch]!
+        <section className='flex flex-row flex-column container mx-auto border-4 border-t-0 border-slate-600 md:flex-row'>
+            <div className='w-full md:w-1/2'>
+                <h2 className='ps-4 pt-4 w-min font-bold text-4xl text-slate-600 lg:text-6xl'>About</h2>
+                <p className='text-slate-600 p-4 lg:text-xl'>
+                    Bailey is a dedicated and driven software developer who thrives on tackling complex challenges. With a penchant for continuous learning, he often invests time in exploring new ideas and crafting intriguing side projects. Armed with an undergraduate degree in computer science, Bailey leverages this knowledge to design and build efficient software solutions. Furthermore, he is also highly interested in computer vision and natural language processing as well as the art of building tangible creations using electronic components and programming logic.
                 </p>
             </div>
 
-            <div className='flex-1'>
-                <img className='size-full' src="https://www.dunderville.se/assets/img/process.jpg" alt="test" />
+            <div className='m-4 md:w-1/2'>
+                <img className='size-full saturate-50 rounded-full' src="/profile.jpeg" alt="test" />
             </div>
         </section>
     );
